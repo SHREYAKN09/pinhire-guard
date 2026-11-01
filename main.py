@@ -6,7 +6,7 @@ from collections import defaultdict
 app = FastAPI()
 SEED = "SEED-2563-PH-405E"
 HEADER = "x-pinhire-hmac-2563"
-LIMIT = 520
+LIMIT = 455
 store = {}
 locks = defaultdict(asyncio.Lock)
 
